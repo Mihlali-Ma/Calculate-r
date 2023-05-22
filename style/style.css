@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .Calculator{
+        width: 379px;
+        margin: auto;
+    }
+    .col{
+        display: inline;
+    }
+    .forms{
+        width: 2px;
+        display: inline;
+    }
+
+} 
